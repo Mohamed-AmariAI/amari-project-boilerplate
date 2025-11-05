@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__context7__resolve-library-id",
+      "Bash(dir \"C:\\Users\\aakif\\dev\\amari-project-boilerplate\\frontend\")",
+      "Bash(dir /s \"C:\\Users\\aakif\\dev\\amari-project-boilerplate\\frontend\\app\")",
+      "Bash(dir /s \"C:\\Users\\aakif\\dev\\amari-project-boilerplate\\frontend\\components\")",
+      "Bash(nul)",
+      "mcp__context7__get-library-docs",
+      "Bash(npm install:*)",
+      "Bash(del \"C:\\Users\\aakif\\dev\\amari-project-boilerplate\\frontend\\supabase-profile-trigger.sql\")",
+      "Bash(psql:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git cherry-pick:*)",
+      "Bash(git clean:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
